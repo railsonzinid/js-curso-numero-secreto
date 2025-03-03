@@ -75,7 +75,7 @@ function gerarNumeroAleatorio() {
     }else{
         /*Push adiciona o numero sempreno final da lista. Como informado ele vai popular a lista. */
         listaDeNumerosSorteados.push(numeroEscolhido);
-        console.log(listaDeNumerosSorteados);
+        /* console.log(listaDeNumerosSorteados); */
         /*Se o numero não estiver na lista será o numero sorteado*/
         return numeroEscolhido;
     }

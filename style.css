@@ -110,3 +110,27 @@ button {
     font-weight: 400;
 }
 
+@media screen and (max-width: 1145px) {
+    .container__imagem-pessoa {
+        display: none;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .container__imagem-pessoa {
+        display: none;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    .texto__paragrafo{
+        font-size: 18px;
+    }
+}
+
+
